@@ -1,0 +1,49 @@
+{
+  "name": "vyper-web-starter",
+  "version": "1.0.0",
+  "repository": "git@github.com:jakeloo/dapp-starter-web.git",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --pretty --noEmit",
+    "format": "prettier --write .",
+    "generate-types": "typechain --target=ethers-v5 'abi/*.json'",
+    "lint": "eslint . --ext ts --ext tsx --ext js"
+  },
+  "devDependencies": {
+    "@typechain/ethers-v5": "^7.0.1",
+    "@types/chai": "^4.2.17",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.9.1",
+    "@types/react": "^17.0.4",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "mkdirp": "^1.0.4",
+    "prettier": "^2.4.0",
+    "typechain": "^5.1.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/network-connector": "^6.1.9",
+    "@web3-react/walletconnect-connector": "^6.2.4",
+    "@web3-react/walletlink-connector": "^6.2.5",
+    "ethers": "^5.4.0",
+    "framer-motion": "^4",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

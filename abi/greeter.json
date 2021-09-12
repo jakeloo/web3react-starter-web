@@ -1,0 +1,39 @@
+[
+  {
+    "stateMutability": "nonpayable",
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "_greeting",
+        "type": "string"
+      }
+    ],
+    "outputs": []
+  },
+  {
+    "stateMutability": "view",
+    "type": "function",
+    "name": "greet",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "gas": 12690
+  },
+  {
+    "stateMutability": "nonpayable",
+    "type": "function",
+    "name": "setGreeting",
+    "inputs": [
+      {
+        "name": "_greeting",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "gas": 108314
+  }
+]
